@@ -72,5 +72,7 @@ trial.code = function(trial, size = .1, intensity = .5){
     }
 }
 
+## gui.user.data()
+USER.DATA = list(name = 'admin', age = 37, gender = 'M')
 run.trials(trial.code, expand.grid(size = c(.1, .2), intensity = c(.2, .6, 1)))
 if(!interactive())quit("no")
